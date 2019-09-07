@@ -1,0 +1,33 @@
+# dependencies
+node_modules/
+
+# test coverage
+coverage/
+
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+.DS_Store
+*.log
+.tern-port
+
+npm-debug.log*
+
+# VIM
+## Swap
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-v][a-z]
+[._]sw[a-p]
+## Session
+Session.vim
+## Temporary
+.netrwhist
+*~
+## Auto-generated tag files
+tags
