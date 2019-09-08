@@ -1,9 +1,11 @@
 {
-  "name": "js-scripting-env",
+  "name": "ts-scripting-env",
   "version": "1.0.0",
-  "description": "Base NodeJS environment for JavaScript toy scripts with eslint and prettier",
-  "main": "index.js",
+  "description": "Base NodeJS environment for TypeScript toy scripts with eslint and prettier",
+  "main": "src/index.ts",
   "scripts": {
+    "run:script": "ts-node",
+    "run:script:debug": "node -r ts-node/register --inspect-brk",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jose M Arroyo",
