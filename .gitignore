@@ -31,3 +31,9 @@ Session.vim
 *~
 ## Auto-generated tag files
 tags
+
+## All toy scripts except base ones
+*.ts
+*.js
+!src/index.ts
+!src/test.ts
