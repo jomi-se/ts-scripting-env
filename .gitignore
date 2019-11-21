@@ -37,3 +37,6 @@ tags
 *.js
 !src/index.ts
 !src/test.ts
+
+## Built file
+dist
