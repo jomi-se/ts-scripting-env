@@ -7,7 +7,7 @@
     "compile": "tsc",
     "run:script": "ts-node",
     "run:script:debug": "node -r ts-node/register --inspect-brk",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "depcheck": "depcruise --validate .dependency-cruiser.js src"
   },
   "author": "Jose M Arroyo",
   "license": "MIT",
@@ -27,13 +27,8 @@
     "prettier": "^1.18.2"
   },
   "dependencies": {
-    "@types/lodash": "^4.14.149",
-    "bignumber.js": "^9.0.0",
-    "lodash": "^4.17.11",
-    "moment": "^2.24.0",
-    "ts-jest": "^24.0.2",
+    "dependency-cruiser": "8.3.0-beta-2",
     "ts-node": "^8.5.2",
-    "tslint": "^5.20.1",
     "typescript": "^3.7.2"
   }
 }
